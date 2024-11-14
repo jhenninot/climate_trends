@@ -1,0 +1,24 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "title": "Entry name",
+                "data": {
+                    "climate_entity": "Climate entity"
+                    
+                    
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "climate_entity": "Climate entity"
+                }
+            }
+        }
+    }
+}

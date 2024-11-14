@@ -1,0 +1,10 @@
+{
+    "domain": "thermostat_trends",
+    "name": "Thermostat trends",
+    "version": "1.0.0",
+    "requirements": ["httpx","bidict"],
+    "dependencies": [],
+    "codeowners": ["@jhenninot"],
+    "config_flow": true,
+    "iot_class": "local_polling"
+}

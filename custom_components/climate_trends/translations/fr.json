@@ -1,0 +1,24 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "title": "Nom de l'entrée",
+                "data": {
+                    "climate_entity": "Choix du thermostat"
+                    
+                    
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "climate_entity": "Choix du thermostat"
+                }
+            }
+        }
+    }
+}
