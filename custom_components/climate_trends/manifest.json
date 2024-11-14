@@ -1,7 +1,7 @@
 {
     "domain": "thermostat_trends",
     "name": "Thermostat trends",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "requirements": ["httpx","bidict"],
     "dependencies": [],
     "codeowners": ["@jhenninot"],

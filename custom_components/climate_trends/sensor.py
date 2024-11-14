@@ -156,8 +156,10 @@ class ActionTempTrendSensor(SensorEntity):
     def native_value(self):
         """Retourne la variation de température en degré/heure."""
         data = self.coordinator.get_last_action_temperature_variation(self._action)
-        self._attr_extra_state_attributes = data["action_data"]
-        return data["temperature_variation"]
+        if data is not None:
+            self._attr_extra_state_attributes = data["action_data"]
+            return data["temperature_variation"]
+        return None
 
     @property
     def available(self):
